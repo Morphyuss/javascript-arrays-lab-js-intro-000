@@ -26,6 +26,6 @@ function prependKitten(name){
 }
 
 function removeLastKitten(name){
-  [kittens.shift(name)]
-    return [kittens.shift(name)]
+  kittens.shift(name)
+    return kittens.shift(name)
 }
